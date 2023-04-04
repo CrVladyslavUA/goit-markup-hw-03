@@ -28,6 +28,33 @@ body {
 }
 
 /*-----------Header-------------*/
+.container {
+    
+    /*position: absolute;*/
+    max-width: 1158px;
+    padding: 0 15px;
+    /*left: 0px;
+    top: 0px;*/
+    margin: 0 auto;
+}
+
+
+
+.header {
+    /*display: flex;
+    flex-direction: row;
+    justify-content: space-between;*/
+    display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        /*position: absolute;*/
+        width: 115px;
+        
+        left: 156px;
+        top: 24px;
+    border-bottom: 1px solid #E7E9FC;
+}
 
 .header-logo {
     font-family: "Raleway", sans-serif;
@@ -44,7 +71,14 @@ body {
     color: var(--color);
 }
 
+.header-nav {
+    display: flex;
+    flex-direction: row;
+    justify-items: baseline;
+}
 .header-link {
+    
+    flex-direction: row;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -53,6 +87,11 @@ body {
 }
 
 .header-list a {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 40px;
     color: var(--color);
 }
 .header-list a:hover, .header-list a:focus {
@@ -61,6 +100,12 @@ body {
 
 .address {
     font-style: normal;
+}
+
+.address-list {
+    display:flex;
+    /*margin-left: ;*/
+    gap: 40px;
 }
 
 .address-link {
@@ -77,6 +122,14 @@ body {
 }
 
 /*--------------------------Hero----------------------*/
+
+/*.hero-container {
+    /*position: absolute;
+        width: 1440px;
+        left: 0px;
+        top: 72px;
+        margin: 0 auto;*/
+}
 
 .hero {
     background-color: #2e2f42;
