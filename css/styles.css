@@ -39,7 +39,6 @@ img {
         margin: 0 auto;
         background-color:var(--background-color) ;
         border-bottom: 1px solid var(--footer-text-color);
-        outline: 2px solid tomato;
 }
 
 
@@ -124,7 +123,6 @@ img {
     align-items: center;
     margin: 0 auto;
     padding: 0;
-    outline: 2px solid yellow;
 }
 
 .hero-title { 
@@ -171,7 +169,6 @@ img {
     align-items: flex-start;
     margin: 0 auto;
     padding: 137px 0 120px;
-    outline: 2px solid green;
 }
 .credo-title {
     display: none;
@@ -212,9 +209,6 @@ img {
     width: 1128px;
     margin: 0 auto;
     display: block;
-    outline: 2px solid tomato;
-
-
 }
 
 .about-title {
@@ -246,7 +240,6 @@ img {
     margin: 0 auto;
     padding: 120px 0;
     background: var(--second-background-color);
-    outline: 2px solid crimson;
 }
 
 .team-title {
@@ -294,7 +287,6 @@ img {
     letter-spacing: 0.02em;
     color: var(--color);
     margin: 0 auto;
-
 }
 
 .team-list-text {
@@ -311,7 +303,6 @@ img {
     display: block;
     margin: 0 auto;
     background-color: var(--footer-background-color);
-    outline: 2px solid yellow;
 }
 
 .footer-content {
@@ -346,14 +337,18 @@ img {
     color:var(--footer-text-color);
 }
 
-/*---------------------Portfolio Page---------------------*/
 
-portfolio-body {
-    font-family:"Roboto", sans-serif;
-    color: var(--second-text-color) ;
-    background-color: var(--background-color);
+/*---------------------PORTFOLIO-----------------
+-------------------HEADER-------------------*/
+.header {
+    width: 1440px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 0 auto;
+        background-color: var(--first-btn-color);
+        border-bottom: 1px solid var(--footer-text-color);
 }
-
 
 .portfolio-header-logo {
     font-family: "Raleway", sans-serif;
@@ -363,6 +358,8 @@ portfolio-body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--third-text-color);
+    margin: 24px 76px 23px 156px;
+    display: block;
 }
 
 .logo-text {
@@ -375,17 +372,17 @@ portfolio-body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin:0 auto;
+    margin: 0 auto;
     padding: 0;
     gap: 40px;
 }
-
 
 .nav-list a {
     color: var(--color);
 }
 
-.nav-list a:hover, .nav-list a:focus {
+.nav-list a:hover,
+.nav-list a:focus {
     color: var(--pressed-state-color);
 }
 
@@ -393,14 +390,22 @@ portfolio-body {
     font-style: normal;
 }
 
-.address-list a:hover, .address-list a:focus {
+.address-list a:hover,
+.address-list a:focus {
     color: var(--pressed-state-color);
+}
+
+portfolio-body {
+    font-family: "Roboto", sans-serif;
+    color: var(--second-text-color);
+    background-color: var(--background-color);
 }
 
 .portfolio-title {
     display: none;
 }
-/*-----------------buttons------------*/ 
+
+/*-----------------buttons------------*/
 
 .filter-btn {
     width: 597px;
@@ -412,7 +417,6 @@ portfolio-body {
     margin: 0 auto;
     padding: 96px 0 72px;
     gap: 24px;
-    outline: 2px solid green;
 }
 
 .btn {
@@ -427,19 +431,30 @@ portfolio-body {
     padding: 12px 24px;
     border: 1px solid var(--btn-border-color);
     border-radius: 4px;
-    }
+}
 
-.all-btn {width: 70.750px;}
+.all-btn {
+    width: 70.750px;
+}
 
-.web-btn {width: 119px;}
+.web-btn {
+    width: 119px;
+}
 
-.app {width: 80.216px;}
+.app {
+    width: 80.216px;
+}
 
-.design-btn { width: 103.203px;}
+.design-btn {
+    width: 103.203px;
+}
 
-.marketing-btn { width: 128.220px}
+.marketing-btn {
+    width: 128.220px
+}
 
-.btn:hover, .btn:focus {
+.btn:hover,
+.btn:focus {
     color: var(--first-btn-color);
     background-color: var(--pressed-state-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -454,7 +469,6 @@ portfolio-body {
     width: 1128px;
     margin: 0 auto;
     padding: 0;
-    outline: 2px solid orange;
 }
 
 .portfolio-list {
@@ -470,8 +484,6 @@ portfolio-body {
     column-gap: 24px;
 }
 
-img {outline: 2px solid crimson;}
-
 .card-content {
     display: flex;
     flex-direction: column;
@@ -480,13 +492,14 @@ img {outline: 2px solid crimson;}
     margin: 32px 16px;
     gap: 8px;
 }
+
 .item-title {
-    font-weight: 500;   
-    font-size: 20px; 
-    line-height: 1.2; 
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
-    color:var(--color);
-    margin: 0; 
+    color: var(--color);
+    margin: 0;
 }
 
 .item-text {
@@ -511,32 +524,6 @@ img {outline: 2px solid crimson;}
 .footer-logo-text {
     color: #F4F4FD;
 }
-
-/*---------------------PORTFOLIO-----------------
--------------------HEADER-------------------*/
-.header {
-    width: 1440px;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        margin: 0 auto;
-        background-color: var(--first-btn-color);
-        border-bottom: 1px solid var(--footer-text-color);
-        outline: 2px solid tomato;
-}
-
-.portfolio-header-logo {
-    font-family: "Raleway", sans-serif;
-        font-weight: 800;
-        font-size: 18px;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: var(--third-text-color);
-        margin: 24px 76px 23px 156px;
-        display: block;
-}
-
 
 
 
